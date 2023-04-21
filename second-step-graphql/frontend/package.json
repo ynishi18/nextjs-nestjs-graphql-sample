@@ -1,0 +1,32 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p ${PORT:-3332}",
+    "build": "next build",
+    "start": "next start -p ${PORT:-3332}",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@types/node": "18.15.13",
+    "@types/react": "18.0.37",
+    "@types/react-dom": "18.0.11",
+    "autoprefixer": "10.4.14",
+    "eslint": "8.38.0",
+    "eslint-config-next": "13.3.0",
+    "graphql-tag": "^2.12.6",
+    "next": "13.3.0",
+    "next-urql": "^5.0.0",
+    "postcss": "8.4.23",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-is": "^18.2.0",
+    "tailwindcss": "3.3.1",
+    "typescript": "5.0.4",
+    "urql": "^4.0.0"
+  },
+  "devDependencies": {
+    "graphql": "^16.6.0"
+  }
+}
